@@ -15,5 +15,13 @@ export default defineConfig({
       visualEditAgent: true
     }),
     react(),
-  ]
+  ],
+  resolve: {
+    // Ensure a single copy of React is used across the app and all dependencies
+    dedupe: ['react', 'react-dom'],
+  },
+  optimizeDeps: {
+    // Pre-bundle React together so its dep chunks stay version-consistent
+    include: ['react', 'react-dom', 'react-dom/client', 'react/jsx-runtime'],
+  },
 });
