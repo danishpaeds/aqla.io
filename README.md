@@ -1,5 +1,9 @@
 # Aqla.io
 
+> **⚠️ NOTE:** The main repository for this project has moved to **[acEr45a/aqla.io](https://github.com/acEr45a/aqla.io)**. This repository is now maintained as a backup archive. Please visit the primary repository for active development and contributions.
+
+---
+
 A premium personal brain operating system that analyzes your unique cognitive patterns, lifestyle, and habits to build a data-driven, evidence-informed protocol for peak mental performance.
 
 ---
@@ -17,7 +21,7 @@ A premium personal brain operating system that analyzes your unique cognitive pa
 
 ## 🔍 Overview
 
-Aqla.io is a production-grade web application engineered to function as a personal brain operating system. It processes user cognitive patterns, lifestyle metrics, and daily habits to generate data-driven, evidence-informed performance protocols.
+Aqla.io is a production-grade web application engineered to function as a personal brain operating system. It processes user cognitive patterns, lifestyle metrics, and daily habits to generate data-driven protocols for peak mental performance.
 
 ---
 
@@ -94,7 +98,7 @@ To clone and run Aqla.io on your local machine using Google Antigravity or a ter
 
 1. **Clone the repository:**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/acEr45a/aqla.io.git
 cd aqla-io
 
 ```
